@@ -1,0 +1,49 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:1%;
+}
+header img { /*poniendo tamaño al logo */
+   width: 100px;
+   height:60px;
+}
+header nav ul {/*customizando la barra de navegación */
+    list-style: none;
+    display: flex;
+    flex-direction: row;     
+}
+header nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+.vec1{ /*separador */
+    width: 1px;
+    height: 25.5px;
+    border: 1px solid #4C495C;
+    background: gray;
+    border-radius: 25%;
+}
+header nav ul li a { /* quita el estilo predeterminado que viene*/
+    text-decoration:none;
+    color:#0e0d0d;
+}
+header nav ul li a:hover { /* añade una propriedade a los items de la lista*/
+    color: #f49f00;  
+}
+.principal{
+    display: flex;
+    flex-direction: column;
+    width: 29%;
+    align-items: center;
+}
+.titulo1{
+    font-size: 350%;
+    text-align: center
+}

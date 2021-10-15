@@ -1,6 +1,6 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 @import url(./css/main.css);
+@import url(./css/footer.css);
 
 * {
     padding: 0;
@@ -12,7 +12,7 @@
 body {
     /*background: rgb(34,193,195);
     background: radial-gradient(circle, rgba(34,193,195,1) 35%, rgba(45,253,141,1) 78%);*/
-    color: hsl(243, 87%, 12%);
+    color: hsl(240, 100%, 1%);
 	font-family: 'Roboto', sans-serif;
 	font-size: 1.1em;
 	margin: 0;
@@ -126,7 +126,7 @@ nav ul li {
 }
 
 nav ul a {
-	color: hsl(243, 87%, 12%);
+	color: hsl(240, 85%, 3%);
 	font-family: 'Raleway', sans-serif;
 	text-decoration: none;
 }

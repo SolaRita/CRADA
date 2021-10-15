@@ -83,9 +83,10 @@ main{
 }
 
 .contenedor2 {
-  margin:0 auto;
-  margin-left: 1vw;
-  padding: 2vw;
+  margin-left: 20px;
+  padding: 10px;
+  max-width: 100%;
+  width: 1100px;
   display: flex;
   /*justify-content: center;*/
 }
@@ -102,7 +103,6 @@ main{
   border-radius: 39px;
   margin: 5px 10px;
   transition: all 0.25s;
-  flex: 1 1 21em;
 }
 .card:hover {
   transform: translateY(-15px);

@@ -78,3 +78,21 @@ form textarea::placeholder{
     background:rgba(226, 100, 100, 0.2); 
     color: black;
 }
+.redes-footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.logo_redes{
+    /* font-size: 20px; */
+    margin: 1vw;
+    /* background: #efefef; */
+    /* width: 50px; */
+    height: 6vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-radius: 100%; */
+    /* color: #a2a2a2; */
+    
+}

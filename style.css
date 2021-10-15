@@ -15,8 +15,15 @@ body {
     color: hsl(240, 100%, 1%);
 	font-family: 'Roboto', sans-serif;
 	font-size: 1.1em;
-	margin: 0;
+	width:100%;
+    min-height: 100vh;
+    justify-content: center;
+    line-height: 1.5;
+    background: linear-gradient(135deg, #4ABDAC55 25%, transparent 25%) -5px 0/ 10px 10px, 
+    linear-gradient(225deg, #4ABDAC 25%, transparent 25%) -5px 0/ 10px 10px, linear-gradient(315deg, #4ABDAC55 25%, transparent 25%) 0px 0/ 10px 10px, linear-gradient(45deg, #4ABDAC 25%, #DFDCE3 25%) 0px 0/ 10px 10px;
 }
+    
+
 
 a {
 	color: #3da08f;
@@ -32,10 +39,6 @@ h4 {
 	font-family: 'Roboto', sans-serif;
 }
 
-h2 {
-	font-size: 1.8em;
-	margin-top: 0;
-}
 /*HEADER*/
 /*header{
     background-image: url(./img/fondo_1.jpg);
@@ -53,9 +56,14 @@ position: relative;*/
 	margin: 0 auto;
 	max-width: 100%;
 	width: 1200px;
+    background-color: #DFDCE3;
+    /*opacity: 0.4;*/
+    background: linear-gradient(135deg, #4ABDAC55 25%, transparent 25%) -5px 0/ 10px 10px, 
+    linear-gradient(225deg, #4ABDAC 25%, transparent 25%) -5px 0/ 10px 10px, linear-gradient(315deg, #4ABDAC55 25%, transparent 25%) 0px 0/ 10px 10px, linear-gradient(45deg, #4ABDAC 25%, #DFDCE3 25%) 0px 0/ 10px 10px;
 }
 .logo {
     width: 7vw;
+    margin-left: -5vw;
 }
 .flex {
 	display: flex;
@@ -79,28 +87,28 @@ position: relative;*/
 .flex > div:last-child {
 	margin-left: 20px;
 }
-.titulo1{
+.titulo1 {
     position: absolute;
-    margin-left: 40vw;
-    margin-top: 13vw;
-    font-size: 6vw;
+    margin-left: 44vw;
+    margin-top: 9vw;
+    font-size: 5vw;
 }
-.square-circle{
+.square-circle {
     background-color: #FFD2B0;
     width: 90vw;
-    height: 37vw;
+    height: 28vw;
     /* position: relative; */
     display: flex;
     /* justify-content: flex-end; */
     /* flex-direction: column; */
-    margin-left: 6vw;
-    margin-top: -33vw;
+    margin-top: -27vw;
     border-top-left-radius: 20vw 20vw;
-    border-bottom-left-radius:20vw 20vw;
-    /*border-radius: 17vw;*/
+    border-bottom-left-radius: 20vw 20vw;
+    /* border-radius: 17vw; */
+    margin-left: 7vw;
 }
 .illustration{
-    width: 33vw;
+    width: 28vw;
     position: relative;
     margin-left: 10vw;
 }/* image 1 */
@@ -109,10 +117,15 @@ position: relative;*/
 
 /* Nav styling */
 nav {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	margin: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 30px 30px;
+    background-color: #ffffff;
+    margin-left: -7vw;
+    margin-right: -12vw;
+    margin-top: -3vw;
+    height: 10vw;
 }
 
 nav ul {
@@ -122,13 +135,14 @@ nav ul {
 }
 
 nav ul li {
-	margin-left: 50px;
+	margin-left: 52px;
 }
 
 nav ul a {
 	color: hsl(240, 85%, 3%);
 	font-family: 'Raleway', sans-serif;
 	text-decoration: none;
+    margin-left: 3vw;
 }
 
 

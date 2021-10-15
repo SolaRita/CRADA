@@ -1,36 +1,132 @@
-.contenedor2 {
-  margin-left: 20px;
-    padding: 10px;
-  max-width: 100%;
-  width: 1100px;
+
+main{
+  background-color: #DFDCE3;
+  background: linear-gradient(135deg, #4ABDAC55 25%, transparent 25%) -5px 0/ 10px 10px, linear-gradient(225deg, #4ABDAC 25%, transparent 25%) -5px 0/ 10px 10px, linear-gradient(315deg, #4ABDAC55 25%, transparent 25%) 0px 0/ 10px 10px, linear-gradient(45deg, #4ABDAC 25%, #DFDCE3 25%) 0px 0/ 10px 10px;
+}
+.square-circle2 {
+  background-color: #FFD2B0;
+  width: 92vw;
+  height: 35vw;
+  /* position: relative; */
   display: flex;
-  justify-content: center;
+  /* justify-content: flex-end; */
+  /* flex-direction: column; */
+  margin-left: -3vw;
+  margin-top: -19vw;
+  border-top-right-radius: 20vw 20vw;
+  /*border-bottom-right-radius: 20vw 20vw;*/
+  /*border-radius: 17vw;*/
+}
+/*#we_do h1{
+    position: absolute;
+    margin-left: 70vw;
+    margin-top: 1.5vw;
+    font-size: 4vw;
+}*/
+.flex2{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.flex2 > div,
+.flex2 > ul {
+	flex: 1;
+}
+
+.flex2 > div:first-child {
+	margin-right: 20px;
+}
+
+.flex2 > div:last-child {
+	margin-left: 20px;
+}
+.titulo2{
+    position: absolute;
+    margin-left: 42vw;
+    margin-top: 3vw;
+    font-size: 3vw;
+}
+.sub_titulo {
+  position: absolute;
+  margin-left: 42vw;
+  margin-top: 12vw;
+  font-size: 1.9vw;
+  width: 40vw;
+}
+.illustration2 {
+  width: 26vw;
+  position: relative;
+  margin-left: 8vw;
+  top: 6vw;
+}
+#we_are{
+  margin-top: 7vw;
+}
+.square-circle3 {
+  background-color: #FFD2B0;
+  width: 94vw;
+  height: 35vw;
+  position: relative;
+  /* justify-content: flex-end; */
+  /* flex-direction: column; */
+  top: -10.5vw;
+  margin-left: -3vw;
+  border-bottom-right-radius: 20vw 20vw;
+  /* border-radius: 17vw; */
+}
+.titulo3{
+  position: absolute;
+  left: 5vw;
+  margin-top: -4vw;
+  font-size: 3vw;
+}
+
+.contenedor2 {
+  margin:0 auto;
+  margin-left: 1vw;
+  padding: 2vw;
+  display: flex;
+  /*justify-content: center;*/
+}
+.row{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .card {
   background-color: #f78733;
   color: black;
-  padding: 30px;
-  width: 200px;
+  padding: 25px;
+  width: 15vw;
   border-radius: 39px;
-  margin: 20px;
+  margin: 5px 10px;
   transition: all 0.25s;
-  display: flex;
+  flex: 1 1 21em;
 }
 .card:hover {
   transform: translateY(-15px);
   box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
 }
+.name {
+  font-size: 2.2vw;
+  justify-content: space-between;
+
+}
+.perfil{
+  font-size: 1.5vw;
+}
 
 #we_use{
     background-color: #FFD2B0;
     width: 90vw;
-    height: 30vw;
+    height: 25vw;
     /* position: relative; */
     display: flex;
     /* justify-content: flex-end; */
     /* flex-direction: column; */
-    margin-left: 8vw;
-    margin-top: 10vw;
+    margin-left: 12.5vw;
+    margin-top: -3.5vw;
     border-top-left-radius: 20vw 20vw;
     border-bottom-left-radius:20vw 20vw;
     /*border-radius: 17vw;*/
@@ -38,12 +134,12 @@
 }
 #we_use h1 {
     position: absolute;
-    margin-left: 70vw;
+    margin-left: 58vw;
     margin-top: 1.5vw;
-    font-size: 4vw;
+    font-size: 3vw;
 }
 .logo_2{
-    width: 15vw;
+    width: 10.5vw;
     justify-content: space-between;
     margin-left: 4vw;
 }

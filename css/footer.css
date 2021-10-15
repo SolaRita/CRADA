@@ -6,6 +6,7 @@
     border: 8px solid rgb(205, 208, 205);
     padding: 5px 0px;
     top:10%;
+    /*margin-left: 10vw;*/
 }
 
 #contacto h4{
@@ -14,6 +15,7 @@
     position: absolute;
     display: flex;
     left: 38vw;
+    
 }
 #contacto form{
     max-width: 80vw;

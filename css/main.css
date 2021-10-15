@@ -2,17 +2,18 @@
 main{
   background-color: #DFDCE3;
   background: linear-gradient(135deg, #4ABDAC55 25%, transparent 25%) -5px 0/ 10px 10px, linear-gradient(225deg, #4ABDAC 25%, transparent 25%) -5px 0/ 10px 10px, linear-gradient(315deg, #4ABDAC55 25%, transparent 25%) 0px 0/ 10px 10px, linear-gradient(45deg, #4ABDAC 25%, #DFDCE3 25%) 0px 0/ 10px 10px;
+  max-width: 100%;
 }
 .square-circle2 {
   background-color: #FFD2B0;
-  width: 92vw;
+  width: 91vw;
   height: 35vw;
   /* position: relative; */
   display: flex;
   /* justify-content: flex-end; */
   /* flex-direction: column; */
-  margin-left: -3vw;
-  margin-top: -19vw;
+  margin-left: -2vw;
+  margin-top: 1vw;
   border-top-right-radius: 20vw 20vw;
   /*border-bottom-right-radius: 20vw 20vw;*/
   /*border-radius: 17vw;*/
@@ -29,18 +30,18 @@ main{
   flex-wrap: wrap;
 }
 
-.flex2 > div,
+/*.flex2 > div,
 .flex2 > ul {
 	flex: 1;
-}
+}*/
 
 .flex2 > div:first-child {
 	margin-right: 20px;
 }
 
-.flex2 > div:last-child {
+/*.flex2 > div:last-child {
 	margin-left: 20px;
-}
+}*/
 .titulo2{
     position: absolute;
     margin-left: 42vw;
@@ -49,16 +50,16 @@ main{
 }
 .sub_titulo {
   position: absolute;
-  margin-left: 42vw;
+  margin-left: 43vw;
   margin-top: 12vw;
   font-size: 1.9vw;
   width: 40vw;
 }
 .illustration2 {
   width: 26vw;
-  position: relative;
-  margin-left: 8vw;
-  top: 6vw;
+  position: absolute;
+  margin-left: 5vw;
+  margin-top: -13vw;
 }
 #we_are{
   margin-top: 7vw;
@@ -83,10 +84,9 @@ main{
 }
 
 .contenedor2 {
-  margin-left: 20px;
-  padding: 10px;
-  max-width: 100%;
-  width: 1100px;
+  margin:0 auto;
+  margin-left: 1vw;
+  padding: 2vw;
   display: flex;
   /*justify-content: center;*/
 }
@@ -103,6 +103,7 @@ main{
   border-radius: 39px;
   margin: 5px 10px;
   transition: all 0.25s;
+  flex: 1 1 21em;
 }
 .card:hover {
   transform: translateY(-15px);
@@ -117,20 +118,20 @@ main{
   font-size: 1.5vw;
 }
 
-#we_use{
-    background-color: #FFD2B0;
-    width: 90vw;
-    height: 25vw;
-    /* position: relative; */
-    display: flex;
-    /* justify-content: flex-end; */
-    /* flex-direction: column; */
-    margin-left: 12.5vw;
-    margin-top: -3.5vw;
-    border-top-left-radius: 20vw 20vw;
-    border-bottom-left-radius:20vw 20vw;
-    /*border-radius: 17vw;*/
-    margin-bottom: 7vw;
+#we_use {
+  background-color: #FFD2B0;
+  width: 90vw;
+  height: 25vw;
+  /* position: relative; */
+  display: flex;
+  /* justify-content: flex-end; */
+  /* flex-direction: column; */
+  margin-left: 10.5vw;
+  margin-top: -4.5vw;
+  border-top-left-radius: 20vw 20vw;
+  border-bottom-left-radius: 20vw 20vw;
+  /* border-radius: 17vw; */
+  margin-bottom: 7vw;
 }
 #we_use h1 {
     position: absolute;

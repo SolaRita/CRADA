@@ -105,7 +105,7 @@ position: relative;*/
     border-top-left-radius: 20vw 20vw;
     border-bottom-left-radius: 20vw 20vw;
     /* border-radius: 17vw; */
-    margin-left: 7vw;
+    margin-left: -5.5vw;
 }
 .illustration{
     width: 28vw;
@@ -123,7 +123,7 @@ nav {
     margin: 30px 30px;
     background-color: #ffffff;
     margin-left: -7vw;
-    margin-right: -12vw;
+    margin-right: -6vw;
     margin-top: -3vw;
     height: 10vw;
 }
@@ -145,4 +145,13 @@ nav ul a {
     margin-left: 3vw;
 }
 
+@media (min-width: 1020px)  
+ {
+    body{
+     background: linear-gradient(135deg, #4ABDAC55 25%, transparent 25%) -5px 0/ 10px 10px, 
+     linear-gradient(225deg, #4ABDAC 25%, transparent 25%) -5px 0/ 10px 10px, linear-gradient(315deg, #4ABDAC55 25%, transparent 25%) 0px 0/ 10px 10px, linear-gradient(45deg, #4ABDAC 25%, #DFDCE3 25%) 0px 0/ 10px 10px;
+    }
+    
+    
+}
 

@@ -8,7 +8,7 @@ Se realizó un proyecto denominado "CRADA", es una landing page basada en CSS Y 
   1. Poner en practica conceptos de CSS y HTML.
   2. Usar visual studio code
   3. Manipulación de GIT y GitHub
-  2. Aprender a manipular herramientas de organización como TRELLO y otras herramientas como Miró y Figma.
+  2. Aprender a manipular herramientas de organización como TRELLO y otras herramientas de disseño como Miró y Figma.
   3. Promover el trabajo en equipo y la metodología agile.
 
 ## Comenzando 🚀
